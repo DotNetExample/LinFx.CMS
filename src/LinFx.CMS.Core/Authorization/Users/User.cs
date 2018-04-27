@@ -1,6 +1,8 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations.Schema;
 using Abp.Authorization.Users;
 using Abp.Extensions;
+using LinFx.CMS.Utils;
 
 namespace LinFx.CMS.Authorization.Users
 {
@@ -8,6 +10,13 @@ namespace LinFx.CMS.Authorization.Users
     {
         public const string DefaultPassword = "123qwe";
 
+        [DatabaseGenerated(DatabaseGeneratedOption.None)]
+        public override long Id { get; set; }
+
+        public User()
+        {
+            Id = IDUtils.GenerateId();
+        }
         public static string CreateRandomPassword()
         {
             return Guid.NewGuid().ToString("N").Truncate(16);

@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinFx.CMS", "src\LinFx.CMS.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinFx.CMS.Web.Host", "src\LinFx.CMS.Web.Host\LinFx.CMS.Web.Host.csproj", "{59269297-1EFB-4E67-A8C3-363EA9BC6F78}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinFx.CMS.Migrator", "src\LinFx.CMS.Migrator\LinFx.CMS.Migrator.csproj", "{F7A61790-81BC-4EC1-8A03-E941C616BAAC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{59269297-1EFB-4E67-A8C3-363EA9BC6F78}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59269297-1EFB-4E67-A8C3-363EA9BC6F78}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59269297-1EFB-4E67-A8C3-363EA9BC6F78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7A61790-81BC-4EC1-8A03-E941C616BAAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7A61790-81BC-4EC1-8A03-E941C616BAAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7A61790-81BC-4EC1-8A03-E941C616BAAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7A61790-81BC-4EC1-8A03-E941C616BAAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
