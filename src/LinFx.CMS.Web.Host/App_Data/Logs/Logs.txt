@@ -3433,3 +3433,771 @@ INFO  2018-04-27 13:51:58,511 [43   ] soft.AspNetCore.Hosting.Internal.WebHost -
 INFO  2018-04-27 13:51:58,631 [34   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
 INFO  2018-04-27 13:51:58,635 [34   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action LinFx.CMS.MultiTenancy.TenantAppService.GetAll (LinFx.CMS.Core) in 816.4006ms
 INFO  2018-04-27 13:51:58,643 [34   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1130.1571ms 200 application/json; charset=utf-8
+DEBUG 2018-04-27 22:08:55,939 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-27 22:08:56,026 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2018-04-27 22:08:56,048 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LinFx.CMS.Web.Host.Startup.CMSWebHostModule, LinFx.CMS.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-27 22:08:56,052 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LinFx.CMS.CMSWebCoreModule, LinFx.CMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-27 22:08:56,052 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LinFx.CMS.CMSApplicationModule, LinFx.CMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-27 22:08:56,053 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LinFx.CMS.CMSCoreModule, LinFx.CMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-27 22:08:56,053 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-27 22:08:56,053 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-27 22:08:56,054 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-27 22:08:56,054 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-27 22:08:56,055 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LinFx.CMS.EntityFrameworkCore.CMSEntityFrameworkModule, LinFx.CMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-27 22:08:56,055 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Dapper.AbpDapperModule, Abp.Dapper, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-27 22:08:56,055 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-27 22:08:56,056 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-27 22:08:56,056 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-27 22:08:56,056 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.IdentityServer4.AbpZeroCoreIdentityServerEntityFrameworkCoreModule, Abp.ZeroCore.IdentityServer4.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-27 22:08:56,057 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.IdentityServer4.AbpZeroCoreIdentityServerModule, Abp.ZeroCore.IdentityServer4, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-27 22:08:56,057 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-27 22:08:56,057 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-27 22:08:56,061 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2018-04-27 22:08:56,151 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-27 22:08:56,151 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-27 22:08:56,152 [1    ] o.Configuration.LanguageManagementConfig - Converted CMS (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-27 22:08:56,152 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-27 22:08:56,600 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: LinFx.CMS.EntityFrameworkCore.CMSDbContext, LinFx.CMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-27 22:08:57,586 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-04-27 22:08:57,711 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-27 22:08:57,777 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-04-27 22:08:57,807 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: CMS
+DEBUG 2018-04-27 22:08:57,852 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-27 22:08:58,024 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-27 22:08:58,101 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-04-27 22:08:58,101 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LinFx.CMS.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-04-27 22:08:58,106 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LinFx.CMS.Users.Dto.CreateUserDto
+DEBUG 2018-04-27 22:08:58,107 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LinFx.CMS.Users.Dto.UserDto
+DEBUG 2018-04-27 22:08:58,107 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LinFx.CMS.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-04-27 22:08:58,107 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LinFx.CMS.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-04-27 22:08:58,107 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LinFx.CMS.Roles.Dto.CreateRoleDto
+DEBUG 2018-04-27 22:08:58,107 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LinFx.CMS.Roles.Dto.PermissionDto
+DEBUG 2018-04-27 22:08:58,107 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LinFx.CMS.Roles.Dto.RoleDto
+DEBUG 2018-04-27 22:08:58,108 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LinFx.CMS.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-04-27 22:08:58,108 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LinFx.CMS.MultiTenancy.Dto.TenantDto
+INFO  2018-04-27 22:12:03,432 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-04-27 22:12:07,836 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method LinFx.CMS.Web.Host.Controllers.HomeController.Index (LinFx.CMS.Web.Host) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-27 22:12:08,195 [3    ] Core.Mvc.Internal.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2018-04-27 22:12:08,242 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action LinFx.CMS.Web.Host.Controllers.HomeController.Index (LinFx.CMS.Web.Host) in 1423.0218ms
+INFO  2018-04-27 22:12:08,335 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4905.5998ms 302 
+INFO  2018-04-27 22:12:08,380 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger  
+INFO  2018-04-27 22:12:08,397 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 42.4157ms 301 
+INFO  2018-04-27 22:12:08,427 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/  
+INFO  2018-04-27 22:12:08,489 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 66.9542ms 200 text/html
+INFO  2018-04-27 22:12:08,528 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2018-04-27 22:12:08,552 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2018-04-27 22:12:08,583 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2018-04-27 22:12:08,660 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2018-04-27 22:12:08,662 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2018-04-27 22:12:08,663 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2018-04-27 22:12:08,719 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 189.6526ms 200 text/css
+INFO  2018-04-27 22:12:08,728 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 170.7516ms 200 application/javascript
+INFO  2018-04-27 22:12:08,787 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 229.4595ms 200 application/javascript
+INFO  2018-04-27 22:12:21,450 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/  
+INFO  2018-04-27 22:12:21,460 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 10.5284ms 200 text/html
+INFO  2018-04-27 22:12:21,904 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2018-04-27 22:12:21,909 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2018-04-27 22:12:21,912 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2018-04-27 22:12:21,967 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2018-04-27 22:12:21,969 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2018-04-27 22:12:21,975 [13   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2018-04-27 22:12:22,012 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 119.2026ms 304 text/css
+INFO  2018-04-27 22:12:22,036 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 93.7073ms 304 application/javascript
+INFO  2018-04-27 22:12:22,065 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 115.4315ms 304 application/javascript
+INFO  2018-04-27 22:12:22,346 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2018-04-27 22:12:22,670 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 340.1704ms 200 application/json
+INFO  2018-04-27 22:13:09,882 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/favicon-32x32.png  
+INFO  2018-04-27 22:13:09,891 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2018-04-27 22:13:09,899 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 15.3629ms 200 image/png
+INFO  2018-04-27 22:13:09,948 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2018-04-27 22:13:09,962 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 29.7364ms 200 application/json
+INFO  2018-04-27 22:15:06,389 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2018-04-27 22:15:06,405 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:06,418 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 27.032ms 204 
+INFO  2018-04-27 22:15:06,448 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2018-04-27 22:15:06,475 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:06,523 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:06,576 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-27 22:15:07,202 [3    ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2018-04-27 22:15:07,254 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 740.7233ms
+INFO  2018-04-27 22:15:07,259 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 833.9938ms 200 application/json; charset=utf-8
+INFO  2018-04-27 22:15:07,320 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2018-04-27 22:15:07,343 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:07,351 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 51.6985ms 204 
+INFO  2018-04-27 22:15:07,407 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2018-04-27 22:15:07,422 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:07,447 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:07,889 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method LinFx.CMS.Sessions.SessionAppService.GetCurrentLoginInformations (LinFx.CMS.Core) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-27 22:15:07,916 [10   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-27 22:15:07,939 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action LinFx.CMS.Sessions.SessionAppService.GetCurrentLoginInformations (LinFx.CMS.Core) in 491.2443ms
+INFO  2018-04-27 22:15:07,966 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 537.01ms 200 application/json; charset=utf-8
+INFO  2018-04-27 22:15:09,326 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/TokenAuth/Authenticate  
+INFO  2018-04-27 22:15:09,334 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:09,340 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 14.5803ms 204 
+INFO  2018-04-27 22:15:09,353 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json;charset=UTF-8 77
+INFO  2018-04-27 22:15:09,360 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:09,397 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:09,972 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method LinFx.CMS.Controllers.TokenAuthController.Authenticate (LinFx.CMS.Core) with arguments (LinFx.CMS.Models.TokenAuth.AuthenticateModel) - ModelState is Valid
+INFO  2018-04-27 22:15:11,378 [3    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-27 22:15:11,405 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action LinFx.CMS.Controllers.TokenAuthController.Authenticate (LinFx.CMS.Core) in 1992.2007ms
+INFO  2018-04-27 22:15:11,419 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2066.4637ms 200 application/json; charset=utf-8
+INFO  2018-04-27 22:15:11,881 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2018-04-27 22:15:11,887 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:11,897 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 14.9938ms 204 
+INFO  2018-04-27 22:15:11,905 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2018-04-27 22:15:11,916 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:11,997 [6    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-27 22:15:12,024 [6    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-27 22:15:12,162 [3    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:12,274 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-27 22:15:12,823 [3    ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2018-04-27 22:15:12,848 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 668.8777ms
+INFO  2018-04-27 22:15:12,853 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 949.2919ms 200 application/json; charset=utf-8
+INFO  2018-04-27 22:15:12,895 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2018-04-27 22:15:12,901 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:12,929 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 15.4387ms 204 
+INFO  2018-04-27 22:15:12,942 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2018-04-27 22:15:12,951 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:12,959 [5    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-27 22:15:12,988 [5    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-27 22:15:13,023 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:13,066 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method LinFx.CMS.Sessions.SessionAppService.GetCurrentLoginInformations (LinFx.CMS.Core) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-27 22:15:13,191 [3    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-27 22:15:13,201 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action LinFx.CMS.Sessions.SessionAppService.GetCurrentLoginInformations (LinFx.CMS.Core) in 200.5246ms
+INFO  2018-04-27 22:15:13,208 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 267.888ms 200 application/json; charset=utf-8
+INFO  2018-04-27 22:15:18,531 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Tenant/GetAll?maxResultCount=10&skipCount=0  
+INFO  2018-04-27 22:15:18,539 [15   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:18,547 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 35.1628ms 204 
+INFO  2018-04-27 22:15:18,579 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Tenant/GetAll?maxResultCount=10&skipCount=0  
+INFO  2018-04-27 22:15:18,585 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:18,591 [5    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-27 22:15:18,599 [5    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-27 22:15:18,631 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:18,891 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method LinFx.CMS.MultiTenancy.TenantAppService.GetAll (LinFx.CMS.Core) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - ModelState is Valid
+INFO  2018-04-27 22:15:19,407 [24   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-27 22:15:19,416 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action LinFx.CMS.MultiTenancy.TenantAppService.GetAll (LinFx.CMS.Core) in 789.5876ms
+INFO  2018-04-27 22:15:19,422 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 863.6876ms 200 application/json; charset=utf-8
+INFO  2018-04-27 22:15:20,422 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/User/GetAll?maxResultCount=10&skipCount=0  
+INFO  2018-04-27 22:15:20,455 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/User/GetRoles  
+INFO  2018-04-27 22:15:20,460 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:20,504 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:20,528 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 47.3972ms 204 
+INFO  2018-04-27 22:15:20,600 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 86.5684ms 204 
+INFO  2018-04-27 22:15:20,626 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetAll?maxResultCount=10&skipCount=0  
+INFO  2018-04-27 22:15:20,672 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetRoles  
+INFO  2018-04-27 22:15:20,675 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:20,728 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:20,732 [10   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-27 22:15:20,737 [10   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-27 22:15:20,743 [5    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-27 22:15:20,768 [5    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-27 22:15:20,796 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:20,803 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:21,014 [26   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method LinFx.CMS.Users.UserAppService.GetRoles (LinFx.CMS.Core) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-27 22:15:21,062 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method LinFx.CMS.Users.UserAppService.GetAll (LinFx.CMS.Core) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - ModelState is Valid
+INFO  2018-04-27 22:15:21,247 [3    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-27 22:15:21,259 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action LinFx.CMS.Users.UserAppService.GetRoles (LinFx.CMS.Core) in 474.302ms
+INFO  2018-04-27 22:15:21,266 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 632.8663ms 200 application/json; charset=utf-8
+INFO  2018-04-27 22:15:21,801 [3    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-27 22:15:21,814 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action LinFx.CMS.Users.UserAppService.GetAll (LinFx.CMS.Core) in 1033.4546ms
+INFO  2018-04-27 22:15:21,819 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1236.1691ms 200 application/json; charset=utf-8
+INFO  2018-04-27 22:15:24,202 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Role/GetAllPermissions  
+INFO  2018-04-27 22:15:24,226 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Role/GetAll?maxResultCount=10&skipCount=0  
+INFO  2018-04-27 22:15:24,282 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:24,302 [14   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:24,370 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 135.7347ms 204 
+INFO  2018-04-27 22:15:24,375 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 155.9412ms 204 
+INFO  2018-04-27 22:15:24,466 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Role/GetAllPermissions  
+INFO  2018-04-27 22:15:24,469 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Role/GetAll?maxResultCount=10&skipCount=0  
+INFO  2018-04-27 22:15:24,518 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:24,521 [14   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:24,570 [5    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-27 22:15:24,573 [14   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-27 22:15:24,642 [5    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-27 22:15:24,646 [14   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-27 22:15:24,698 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:24,702 [14   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:25,023 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method LinFx.CMS.Roles.RoleAppService.GetAllPermissions (LinFx.CMS.Core) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-27 22:15:25,026 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method LinFx.CMS.Roles.RoleAppService.GetAll (LinFx.CMS.Core) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - ModelState is Valid
+INFO  2018-04-27 22:15:25,130 [24   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-27 22:15:25,178 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action LinFx.CMS.Roles.RoleAppService.GetAllPermissions (LinFx.CMS.Core) in 481.5922ms
+INFO  2018-04-27 22:15:25,184 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 778.6937ms 200 application/json; charset=utf-8
+INFO  2018-04-27 22:15:25,484 [3    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-27 22:15:25,491 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action LinFx.CMS.Roles.RoleAppService.GetAll (LinFx.CMS.Core) in 832.1106ms
+INFO  2018-04-27 22:15:25,496 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1071.8889ms 200 application/json; charset=utf-8
+INFO  2018-04-27 22:15:26,732 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/User/GetRoles  
+INFO  2018-04-27 22:15:26,756 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/User/GetAll?maxResultCount=10&skipCount=0  
+INFO  2018-04-27 22:15:26,824 [11   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:26,848 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:26,916 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 156.9794ms 204 
+INFO  2018-04-27 22:15:26,940 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 180.503ms 204 
+INFO  2018-04-27 22:15:27,056 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetRoles  
+INFO  2018-04-27 22:15:27,080 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetAll?maxResultCount=10&skipCount=0  
+INFO  2018-04-27 22:15:27,148 [11   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:27,150 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:27,216 [11   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-27 22:15:27,240 [10   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-27 22:15:27,290 [11   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-27 22:15:27,293 [10   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-27 22:15:27,300 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:27,307 [11   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:27,341 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method LinFx.CMS.Users.UserAppService.GetAll (LinFx.CMS.Core) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - ModelState is Valid
+INFO  2018-04-27 22:15:27,509 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method LinFx.CMS.Users.UserAppService.GetRoles (LinFx.CMS.Core) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-27 22:15:27,697 [26   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-27 22:15:27,705 [26   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action LinFx.CMS.Users.UserAppService.GetRoles (LinFx.CMS.Core) in 396.2457ms
+INFO  2018-04-27 22:15:27,711 [26   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 744.2884ms 200 application/json; charset=utf-8
+INFO  2018-04-27 22:15:27,737 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Tenant/GetAll?maxResultCount=10&skipCount=0  
+INFO  2018-04-27 22:15:27,744 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:27,749 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 12.3492ms 204 
+INFO  2018-04-27 22:15:27,762 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Tenant/GetAll?maxResultCount=10&skipCount=0  
+INFO  2018-04-27 22:15:27,768 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:27,779 [5    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-27 22:15:27,785 [5    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-27 22:15:27,795 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:27,828 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method LinFx.CMS.MultiTenancy.TenantAppService.GetAll (LinFx.CMS.Core) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - ModelState is Valid
+INFO  2018-04-27 22:15:27,915 [3    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-27 22:15:27,923 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action LinFx.CMS.Users.UserAppService.GetAll (LinFx.CMS.Core) in 618.9435ms
+INFO  2018-04-27 22:15:27,930 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 938.3441ms 200 application/json; charset=utf-8
+INFO  2018-04-27 22:15:28,219 [3    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-27 22:15:28,225 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action LinFx.CMS.MultiTenancy.TenantAppService.GetAll (LinFx.CMS.Core) in 430.3864ms
+INFO  2018-04-27 22:15:28,230 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 471.4273ms 200 application/json; charset=utf-8
+INFO  2018-04-27 22:15:28,838 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetAll?maxResultCount=10&skipCount=0  
+INFO  2018-04-27 22:15:28,861 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetRoles  
+INFO  2018-04-27 22:15:28,929 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:28,931 [12   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:28,997 [10   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-27 22:15:29,021 [12   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-27 22:15:29,085 [10   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-27 22:15:29,089 [12   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-27 22:15:29,162 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:29,166 [12   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:29,217 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method LinFx.CMS.Users.UserAppService.GetAll (LinFx.CMS.Core) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - ModelState is Valid
+INFO  2018-04-27 22:15:29,343 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method LinFx.CMS.Users.UserAppService.GetRoles (LinFx.CMS.Core) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-27 22:15:29,532 [26   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-27 22:15:29,540 [26   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action LinFx.CMS.Users.UserAppService.GetRoles (LinFx.CMS.Core) in 441.22ms
+INFO  2018-04-27 22:15:29,550 [26   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 766.9546ms 200 application/json; charset=utf-8
+INFO  2018-04-27 22:15:29,683 [24   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-27 22:15:29,690 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action LinFx.CMS.Users.UserAppService.GetAll (LinFx.CMS.Core) in 592.015ms
+INFO  2018-04-27 22:15:29,697 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 918.3709ms 200 application/json; charset=utf-8
+INFO  2018-04-27 22:15:30,273 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Role/GetAll?maxResultCount=10&skipCount=0  
+INFO  2018-04-27 22:15:30,277 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Role/GetAllPermissions  
+INFO  2018-04-27 22:15:30,321 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:30,325 [11   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:30,396 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 98.8539ms 204 
+INFO  2018-04-27 22:15:30,397 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 100.0026ms 204 
+INFO  2018-04-27 22:15:30,472 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Role/GetAll?maxResultCount=10&skipCount=0  
+INFO  2018-04-27 22:15:30,474 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Role/GetAllPermissions  
+INFO  2018-04-27 22:15:30,523 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:30,525 [11   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:30,576 [6    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-27 22:15:30,596 [11   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-27 22:15:30,660 [6    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-27 22:15:30,664 [11   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-27 22:15:30,716 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:30,720 [11   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:30,749 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method LinFx.CMS.Roles.RoleAppService.GetAll (LinFx.CMS.Core) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - ModelState is Valid
+INFO  2018-04-27 22:15:30,857 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method LinFx.CMS.Roles.RoleAppService.GetAllPermissions (LinFx.CMS.Core) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-27 22:15:30,952 [24   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-27 22:15:30,974 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action LinFx.CMS.Roles.RoleAppService.GetAllPermissions (LinFx.CMS.Core) in 285.331ms
+INFO  2018-04-27 22:15:30,986 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 552.0152ms 200 application/json; charset=utf-8
+INFO  2018-04-27 22:15:31,182 [3    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-27 22:15:31,207 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action LinFx.CMS.Roles.RoleAppService.GetAll (LinFx.CMS.Core) in 515.2139ms
+INFO  2018-04-27 22:15:31,213 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 784.9935ms 200 application/json; charset=utf-8
+INFO  2018-04-27 22:15:33,458 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Role/GetAll?maxResultCount=10&skipCount=0  
+INFO  2018-04-27 22:15:33,483 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Role/GetAllPermissions  
+INFO  2018-04-27 22:15:33,536 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:33,539 [15   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:33,614 [15   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-27 22:15:33,636 [5    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-27 22:15:33,664 [15   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-27 22:15:33,667 [5    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-27 22:15:33,718 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:33,722 [15   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:33,757 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method LinFx.CMS.Roles.RoleAppService.GetAll (LinFx.CMS.Core) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - ModelState is Valid
+INFO  2018-04-27 22:15:33,890 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method LinFx.CMS.Roles.RoleAppService.GetAllPermissions (LinFx.CMS.Core) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-27 22:15:33,998 [3    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-27 22:15:34,023 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action LinFx.CMS.Roles.RoleAppService.GetAllPermissions (LinFx.CMS.Core) in 327.9251ms
+INFO  2018-04-27 22:15:34,029 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 614.3993ms 200 application/json; charset=utf-8
+INFO  2018-04-27 22:15:34,175 [3    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-27 22:15:34,182 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action LinFx.CMS.Roles.RoleAppService.GetAll (LinFx.CMS.Core) in 505.6442ms
+INFO  2018-04-27 22:15:34,192 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 773.1587ms 200 application/json; charset=utf-8
+INFO  2018-04-27 22:15:34,387 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/User/GetAll?maxResultCount=10&skipCount=0  
+INFO  2018-04-27 22:15:34,411 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/User/GetRoles  
+INFO  2018-04-27 22:15:34,463 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:34,487 [11   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:34,497 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 150.5969ms 204 
+INFO  2018-04-27 22:15:34,501 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 172.3124ms 204 
+INFO  2018-04-27 22:15:34,563 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetAll?maxResultCount=10&skipCount=0  
+INFO  2018-04-27 22:15:34,584 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetRoles  
+INFO  2018-04-27 22:15:34,627 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:34,631 [11   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:34,655 [6    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-27 22:15:34,724 [11   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-27 22:15:34,748 [6    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-27 22:15:34,753 [11   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-27 22:15:34,780 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:34,787 [11   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:34,821 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method LinFx.CMS.Users.UserAppService.GetAll (LinFx.CMS.Core) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - ModelState is Valid
+INFO  2018-04-27 22:15:34,957 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method LinFx.CMS.Users.UserAppService.GetRoles (LinFx.CMS.Core) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-27 22:15:35,111 [3    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-27 22:15:35,117 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action LinFx.CMS.Users.UserAppService.GetRoles (LinFx.CMS.Core) in 352.5802ms
+INFO  2018-04-27 22:15:35,143 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 609.7705ms 200 application/json; charset=utf-8
+INFO  2018-04-27 22:15:35,411 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Tenant/GetAll?maxResultCount=10&skipCount=0  
+INFO  2018-04-27 22:15:35,414 [27   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-27 22:15:35,488 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:35,492 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action LinFx.CMS.Users.UserAppService.GetAll (LinFx.CMS.Core) in 661.208ms
+INFO  2018-04-27 22:15:35,540 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 130.8984ms 204 
+INFO  2018-04-27 22:15:35,543 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 985.0582ms 200 application/json; charset=utf-8
+INFO  2018-04-27 22:15:35,575 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Tenant/GetAll?maxResultCount=10&skipCount=0  
+INFO  2018-04-27 22:15:35,579 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:35,603 [5    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-27 22:15:35,608 [5    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-27 22:15:35,620 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:35,679 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method LinFx.CMS.MultiTenancy.TenantAppService.GetAll (LinFx.CMS.Core) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - ModelState is Valid
+INFO  2018-04-27 22:15:36,031 [3    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-27 22:15:36,037 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action LinFx.CMS.MultiTenancy.TenantAppService.GetAll (LinFx.CMS.Core) in 417.4004ms
+INFO  2018-04-27 22:15:36,043 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 472.5137ms 200 application/json; charset=utf-8
+INFO  2018-04-27 22:15:42,566 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Tenant/GetAll?maxResultCount=10&skipCount=0  
+INFO  2018-04-27 22:15:42,574 [12   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:42,583 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 15.6955ms 204 
+INFO  2018-04-27 22:15:42,593 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Tenant/GetAll?maxResultCount=10&skipCount=0  
+INFO  2018-04-27 22:15:42,604 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:42,610 [5    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-27 22:15:42,637 [5    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-27 22:15:42,647 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:42,684 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method LinFx.CMS.MultiTenancy.TenantAppService.GetAll (LinFx.CMS.Core) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - ModelState is Valid
+INFO  2018-04-27 22:15:43,030 [3    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-27 22:15:43,038 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action LinFx.CMS.MultiTenancy.TenantAppService.GetAll (LinFx.CMS.Core) in 390.4781ms
+INFO  2018-04-27 22:15:43,045 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 452.6992ms 200 application/json; charset=utf-8
+INFO  2018-04-27 22:15:43,515 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/User/GetAll?maxResultCount=10&skipCount=0  
+INFO  2018-04-27 22:15:43,538 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/User/GetRoles  
+INFO  2018-04-27 22:15:43,607 [11   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:43,631 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:43,640 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 124.0389ms 204 
+INFO  2018-04-27 22:15:43,666 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 148.0179ms 204 
+INFO  2018-04-27 22:15:43,738 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetAll?maxResultCount=10&skipCount=0  
+INFO  2018-04-27 22:15:43,762 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetRoles  
+INFO  2018-04-27 22:15:43,793 [11   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:43,796 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:43,845 [11   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-27 22:15:43,870 [5    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-27 22:15:43,918 [11   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-27 22:15:43,920 [5    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-27 22:15:43,966 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:43,971 [11   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:15:43,998 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method LinFx.CMS.Users.UserAppService.GetAll (LinFx.CMS.Core) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - ModelState is Valid
+INFO  2018-04-27 22:15:44,116 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method LinFx.CMS.Users.UserAppService.GetRoles (LinFx.CMS.Core) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-27 22:15:44,295 [3    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-27 22:15:44,301 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action LinFx.CMS.Users.UserAppService.GetRoles (LinFx.CMS.Core) in 372.2134ms
+INFO  2018-04-27 22:15:44,307 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 610.0809ms 200 application/json; charset=utf-8
+INFO  2018-04-27 22:15:44,441 [24   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-27 22:15:44,467 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action LinFx.CMS.Users.UserAppService.GetAll (LinFx.CMS.Core) in 517.6547ms
+INFO  2018-04-27 22:15:44,495 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 796.8351ms 200 application/json; charset=utf-8
+INFO  2018-04-27 22:27:53,243 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2018-04-27 22:27:53,267 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:27:53,291 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 48.4128ms 204 
+INFO  2018-04-27 22:27:53,318 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2018-04-27 22:27:53,323 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:27:53,349 [5    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-27 22:27:53,373 [5    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-27 22:27:53,382 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:27:53,436 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-27 22:27:53,649 [24   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2018-04-27 22:27:53,675 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 272.846ms
+INFO  2018-04-27 22:27:53,681 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 382.8039ms 200 application/json; charset=utf-8
+INFO  2018-04-27 22:27:53,737 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2018-04-27 22:27:53,741 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:27:53,750 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 16.4635ms 204 
+INFO  2018-04-27 22:27:53,777 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2018-04-27 22:27:53,785 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:27:53,790 [6    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-27 22:27:53,794 [6    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-27 22:27:53,805 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:27:53,843 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method LinFx.CMS.Sessions.SessionAppService.GetCurrentLoginInformations (LinFx.CMS.Core) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-27 22:27:53,962 [24   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-27 22:27:53,969 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action LinFx.CMS.Sessions.SessionAppService.GetCurrentLoginInformations (LinFx.CMS.Core) in 161.8689ms
+INFO  2018-04-27 22:27:53,977 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 216.5326ms 200 application/json; charset=utf-8
+INFO  2018-04-27 22:28:04,175 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Tenant/GetAll?maxResultCount=10&skipCount=0  
+INFO  2018-04-27 22:28:04,183 [11   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:28:04,210 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 14.375ms 204 
+INFO  2018-04-27 22:28:04,221 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Tenant/GetAll?maxResultCount=10&skipCount=0  
+INFO  2018-04-27 22:28:04,248 [11   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:28:04,273 [11   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-27 22:28:04,279 [11   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-27 22:28:04,307 [11   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:28:04,357 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method LinFx.CMS.MultiTenancy.TenantAppService.GetAll (LinFx.CMS.Core) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - ModelState is Valid
+INFO  2018-04-27 22:28:04,805 [24   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-27 22:28:04,831 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action LinFx.CMS.MultiTenancy.TenantAppService.GetAll (LinFx.CMS.Core) in 523.8461ms
+INFO  2018-04-27 22:28:04,855 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 615.0495ms 200 application/json; charset=utf-8
+INFO  2018-04-27 22:28:06,836 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Tenant/GetAll?maxResultCount=10&skipCount=0  
+INFO  2018-04-27 22:28:06,865 [12   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:28:06,893 [12   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-27 22:28:06,917 [12   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-27 22:28:06,927 [12   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:28:06,963 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method LinFx.CMS.MultiTenancy.TenantAppService.GetAll (LinFx.CMS.Core) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - ModelState is Valid
+INFO  2018-04-27 22:28:11,377 [30   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-27 22:28:11,383 [30   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action LinFx.CMS.MultiTenancy.TenantAppService.GetAll (LinFx.CMS.Core) in 4457.5008ms
+INFO  2018-04-27 22:28:11,410 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4570.3633ms 200 application/json; charset=utf-8
+INFO  2018-04-27 22:31:29,673 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2018-04-27 22:31:29,699 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:31:29,710 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 33.0302ms 204 
+INFO  2018-04-27 22:31:29,749 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2018-04-27 22:31:29,780 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:31:29,811 [5    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-27 22:31:29,842 [5    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-27 22:31:29,874 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:31:29,933 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-27 22:31:30,134 [30   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2018-04-27 22:31:30,140 [30   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 289.7581ms
+INFO  2018-04-27 22:31:30,146 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 427.7323ms 200 application/json; charset=utf-8
+INFO  2018-04-27 22:31:30,186 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2018-04-27 22:31:30,210 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:31:30,234 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 29.9921ms 204 
+INFO  2018-04-27 22:31:30,364 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Tenant/GetAll?maxResultCount=10&skipCount=0  
+INFO  2018-04-27 22:31:30,398 [11   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:31:30,423 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2018-04-27 22:31:30,454 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 62.8968ms 204 
+INFO  2018-04-27 22:31:30,457 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:31:30,511 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Tenant/GetAll?maxResultCount=10&skipCount=0  
+INFO  2018-04-27 22:31:30,535 [5    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-27 22:31:30,587 [11   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:31:30,590 [5    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-27 22:31:30,595 [11   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-27 22:31:30,604 [11   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-27 22:31:30,632 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:31:30,637 [11   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:31:30,688 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method LinFx.CMS.Sessions.SessionAppService.GetCurrentLoginInformations (LinFx.CMS.Core) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-27 22:31:30,716 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method LinFx.CMS.MultiTenancy.TenantAppService.GetAll (LinFx.CMS.Core) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - ModelState is Valid
+INFO  2018-04-27 22:31:30,838 [30   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-27 22:31:30,875 [30   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action LinFx.CMS.Sessions.SessionAppService.GetCurrentLoginInformations (LinFx.CMS.Core) in 231.8707ms
+INFO  2018-04-27 22:31:30,882 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 505.4297ms 200 application/json; charset=utf-8
+INFO  2018-04-27 22:31:31,116 [30   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-27 22:31:31,122 [30   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action LinFx.CMS.MultiTenancy.TenantAppService.GetAll (LinFx.CMS.Core) in 485.376ms
+INFO  2018-04-27 22:31:31,127 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 661.8633ms 200 application/json; charset=utf-8
+INFO  2018-04-27 22:31:35,687 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Tenant/GetAll?maxResultCount=10&skipCount=0  
+INFO  2018-04-27 22:31:35,718 [12   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:31:35,769 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 36.2641ms 204 
+INFO  2018-04-27 22:31:35,792 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Tenant/GetAll?maxResultCount=10&skipCount=0  
+INFO  2018-04-27 22:31:35,823 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:31:35,827 [6    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-27 22:31:35,837 [6    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-27 22:31:35,936 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:31:35,991 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method LinFx.CMS.MultiTenancy.TenantAppService.GetAll (LinFx.CMS.Core) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - ModelState is Valid
+INFO  2018-04-27 22:31:36,316 [30   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-27 22:31:36,342 [30   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action LinFx.CMS.MultiTenancy.TenantAppService.GetAll (LinFx.CMS.Core) in 389.4435ms
+INFO  2018-04-27 22:31:36,353 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 600.6435ms 200 application/json; charset=utf-8
+INFO  2018-04-27 22:31:43,825 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/User/ChangeLanguage  
+INFO  2018-04-27 22:31:43,831 [11   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:31:43,880 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 12.1122ms 204 
+INFO  2018-04-27 22:31:43,902 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/User/ChangeLanguage application/json;charset=UTF-8 21
+INFO  2018-04-27 22:31:43,912 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:31:43,939 [5    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-27 22:31:43,963 [5    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-27 22:31:43,996 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:31:44,149 [33   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method LinFx.CMS.Users.UserAppService.ChangeLanguage (LinFx.CMS.Core) with arguments (LinFx.CMS.Users.Dto.ChangeUserLanguageDto) - ModelState is Valid
+INFO  2018-04-27 22:31:44,400 [33   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-27 22:31:44,426 [33   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action LinFx.CMS.Users.UserAppService.ChangeLanguage (LinFx.CMS.Core) in 430.6584ms
+INFO  2018-04-27 22:31:44,451 [33   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 572.7242ms 200 application/json; charset=utf-8
+INFO  2018-04-27 22:31:45,021 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2018-04-27 22:31:45,050 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:31:45,106 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 35.6635ms 204 
+INFO  2018-04-27 22:31:45,141 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2018-04-27 22:31:45,171 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:31:45,202 [6    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-27 22:31:45,234 [6    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-27 22:31:45,543 [30   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:31:45,602 [30   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-27 22:31:45,823 [30   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2018-04-27 22:31:45,829 [30   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 306.0265ms
+INFO  2018-04-27 22:31:45,837 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 757.4264ms 200 application/json; charset=utf-8
+INFO  2018-04-27 22:31:45,876 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2018-04-27 22:31:45,882 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:31:45,888 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 13.4232ms 204 
+INFO  2018-04-27 22:31:46,031 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Tenant/GetAll?maxResultCount=10&skipCount=0  
+INFO  2018-04-27 22:31:46,088 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:31:46,113 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2018-04-27 22:31:46,143 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 63.3209ms 204 
+INFO  2018-04-27 22:31:46,147 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:31:46,181 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Tenant/GetAll?maxResultCount=10&skipCount=0  
+INFO  2018-04-27 22:31:46,205 [5    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-27 22:31:46,254 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:31:46,258 [5    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-27 22:31:46,268 [6    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-27 22:31:46,272 [6    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-27 22:31:46,349 [30   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:31:46,425 [30   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method LinFx.CMS.Sessions.SessionAppService.GetCurrentLoginInformations (LinFx.CMS.Core) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-27 22:31:46,432 [33   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:31:46,482 [33   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method LinFx.CMS.MultiTenancy.TenantAppService.GetAll (LinFx.CMS.Core) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - ModelState is Valid
+INFO  2018-04-27 22:31:46,569 [32   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-27 22:31:46,575 [32   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action LinFx.CMS.Sessions.SessionAppService.GetCurrentLoginInformations (LinFx.CMS.Core) in 226.8153ms
+INFO  2018-04-27 22:31:46,584 [32   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 522.2667ms 200 application/json; charset=utf-8
+INFO  2018-04-27 22:31:46,791 [33   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-27 22:31:46,798 [33   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action LinFx.CMS.MultiTenancy.TenantAppService.GetAll (LinFx.CMS.Core) in 365.184ms
+INFO  2018-04-27 22:31:46,804 [33   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 647.6356ms 200 application/json; charset=utf-8
+INFO  2018-04-27 22:31:49,208 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/User/ChangeLanguage  
+INFO  2018-04-27 22:31:49,214 [11   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:31:49,262 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 34.4859ms 204 
+INFO  2018-04-27 22:31:49,294 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/User/ChangeLanguage application/json;charset=UTF-8 24
+INFO  2018-04-27 22:31:49,321 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:31:49,349 [5    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-27 22:31:49,354 [5    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-27 22:31:49,500 [30   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:31:49,631 [30   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method LinFx.CMS.Users.UserAppService.ChangeLanguage (LinFx.CMS.Core) with arguments (LinFx.CMS.Users.Dto.ChangeUserLanguageDto) - ModelState is Valid
+INFO  2018-04-27 22:31:49,805 [30   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-27 22:31:49,846 [30   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action LinFx.CMS.Users.UserAppService.ChangeLanguage (LinFx.CMS.Core) in 311.7584ms
+INFO  2018-04-27 22:31:49,865 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 608.5985ms 200 application/json; charset=utf-8
+INFO  2018-04-27 22:31:49,957 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2018-04-27 22:31:49,967 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:31:49,994 [5    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-27 22:31:50,001 [5    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-27 22:31:50,107 [30   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:31:50,197 [30   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-27 22:31:50,380 [5    ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2018-04-27 22:31:50,386 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 311.4791ms
+INFO  2018-04-27 22:31:50,391 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 435.5658ms 200 application/json; charset=utf-8
+INFO  2018-04-27 22:31:50,420 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2018-04-27 22:31:50,429 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:31:50,435 [10   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-27 22:31:50,442 [10   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-27 22:31:50,470 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:31:50,502 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method LinFx.CMS.Sessions.SessionAppService.GetCurrentLoginInformations (LinFx.CMS.Core) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-27 22:31:50,602 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Tenant/GetAll?maxResultCount=10&skipCount=0  
+INFO  2018-04-27 22:31:50,610 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:31:50,642 [6    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-27 22:31:50,647 [31   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-27 22:31:50,699 [6    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-27 22:31:50,702 [31   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action LinFx.CMS.Sessions.SessionAppService.GetCurrentLoginInformations (LinFx.CMS.Core) in 203.0171ms
+INFO  2018-04-27 22:31:50,714 [31   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 289.3245ms 200 application/json; charset=utf-8
+INFO  2018-04-27 22:31:50,729 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:31:50,769 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method LinFx.CMS.MultiTenancy.TenantAppService.GetAll (LinFx.CMS.Core) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - ModelState is Valid
+INFO  2018-04-27 22:31:51,044 [30   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-27 22:31:51,049 [30   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action LinFx.CMS.MultiTenancy.TenantAppService.GetAll (LinFx.CMS.Core) in 324.298ms
+INFO  2018-04-27 22:31:51,061 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 490.9927ms 200 application/json; charset=utf-8
+INFO  2018-04-27 22:35:12,987 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2018-04-27 22:35:13,014 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:35:13,055 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 57.8629ms 204 
+INFO  2018-04-27 22:35:13,093 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2018-04-27 22:35:13,124 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:35:13,154 [5    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-27 22:35:13,175 [5    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-27 22:35:13,183 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:35:13,231 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-27 22:35:13,410 [30   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2018-04-27 22:35:13,435 [30   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 233.2375ms
+INFO  2018-04-27 22:35:13,441 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 378.7487ms 200 application/json; charset=utf-8
+INFO  2018-04-27 22:35:13,482 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2018-04-27 22:35:13,506 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:35:13,532 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 31.5044ms 204 
+INFO  2018-04-27 22:35:13,606 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2018-04-27 22:35:13,634 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:35:13,659 [10   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-27 22:35:13,687 [10   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-27 22:35:13,715 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:35:13,778 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method LinFx.CMS.Sessions.SessionAppService.GetCurrentLoginInformations (LinFx.CMS.Core) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-27 22:35:13,892 [30   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-27 22:35:13,923 [30   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action LinFx.CMS.Sessions.SessionAppService.GetCurrentLoginInformations (LinFx.CMS.Core) in 202.4803ms
+INFO  2018-04-27 22:35:13,927 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 341.6907ms 200 application/json; charset=utf-8
+INFO  2018-04-27 22:35:17,918 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Role/GetAll?maxResultCount=10&skipCount=0  
+INFO  2018-04-27 22:35:17,950 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Role/GetAllPermissions  
+INFO  2018-04-27 22:35:17,953 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:35:17,984 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:35:17,986 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 65.913ms 204 
+INFO  2018-04-27 22:35:18,012 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 89.1554ms 204 
+INFO  2018-04-27 22:35:18,064 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Role/GetAll?maxResultCount=10&skipCount=0  
+INFO  2018-04-27 22:35:18,086 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Role/GetAllPermissions  
+INFO  2018-04-27 22:35:18,132 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:35:18,135 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:35:18,162 [5    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-27 22:35:18,181 [6    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-27 22:35:18,240 [5    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-27 22:35:18,243 [6    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-27 22:35:18,274 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:35:18,277 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:35:18,308 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method LinFx.CMS.Roles.RoleAppService.GetAll (LinFx.CMS.Core) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - ModelState is Valid
+INFO  2018-04-27 22:35:18,438 [30   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method LinFx.CMS.Roles.RoleAppService.GetAllPermissions (LinFx.CMS.Core) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-27 22:35:18,554 [26   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-27 22:35:18,581 [26   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action LinFx.CMS.Roles.RoleAppService.GetAllPermissions (LinFx.CMS.Core) in 309.5653ms
+INFO  2018-04-27 22:35:18,588 [26   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 542.3433ms 200 application/json; charset=utf-8
+INFO  2018-04-27 22:35:18,841 [27   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-27 22:35:18,847 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action LinFx.CMS.Roles.RoleAppService.GetAll (LinFx.CMS.Core) in 569.4159ms
+INFO  2018-04-27 22:35:18,873 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 832.2134ms 200 application/json; charset=utf-8
+INFO  2018-04-27 22:35:45,987 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2018-04-27 22:35:46,017 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:35:46,024 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 38.0393ms 204 
+INFO  2018-04-27 22:35:46,054 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2018-04-27 22:35:46,079 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:35:46,105 [5    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-27 22:35:46,129 [5    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-27 22:35:46,158 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:35:46,188 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-27 22:35:46,422 [27   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2018-04-27 22:35:46,459 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 289.745ms
+INFO  2018-04-27 22:35:46,465 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 434.862ms 200 application/json; charset=utf-8
+INFO  2018-04-27 22:35:46,509 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2018-04-27 22:35:46,538 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:35:46,544 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 36.8038ms 204 
+INFO  2018-04-27 22:35:46,628 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2018-04-27 22:35:46,638 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:35:46,668 [10   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-27 22:35:46,696 [10   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-27 22:35:46,710 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:35:46,756 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method LinFx.CMS.Sessions.SessionAppService.GetCurrentLoginInformations (LinFx.CMS.Core) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-27 22:35:46,865 [27   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-27 22:35:46,895 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action LinFx.CMS.Sessions.SessionAppService.GetCurrentLoginInformations (LinFx.CMS.Core) in 161.2165ms
+INFO  2018-04-27 22:35:46,908 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 277.2192ms 200 application/json; charset=utf-8
+INFO  2018-04-27 22:36:19,875 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2018-04-27 22:36:19,902 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:36:19,972 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 33.1738ms 204 
+INFO  2018-04-27 22:36:19,974 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2018-04-27 22:36:20,001 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:36:20,040 [6    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-27 22:36:20,072 [6    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-27 22:36:20,094 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:36:20,122 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-27 22:36:20,384 [27   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2018-04-27 22:36:20,418 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 309.1849ms
+INFO  2018-04-27 22:36:20,424 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 480.3818ms 200 application/json; charset=utf-8
+INFO  2018-04-27 22:36:20,459 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2018-04-27 22:36:20,487 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:36:20,493 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 34.4134ms 204 
+INFO  2018-04-27 22:36:20,560 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2018-04-27 22:36:20,592 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:36:20,601 [10   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-27 22:36:20,610 [10   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-27 22:36:20,623 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:36:20,660 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method LinFx.CMS.Sessions.SessionAppService.GetCurrentLoginInformations (LinFx.CMS.Core) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-27 22:36:20,773 [27   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-27 22:36:20,801 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action LinFx.CMS.Sessions.SessionAppService.GetCurrentLoginInformations (LinFx.CMS.Core) in 160.0394ms
+INFO  2018-04-27 22:36:20,808 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 248.7831ms 200 application/json; charset=utf-8
+INFO  2018-04-27 22:41:41,961 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2018-04-27 22:41:41,970 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:41:41,979 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 16.2786ms 204 
+INFO  2018-04-27 22:41:42,015 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2018-04-27 22:41:42,032 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:41:42,048 [5    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-27 22:41:42,058 [5    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-27 22:41:42,068 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:41:42,138 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-27 22:41:42,452 [27   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2018-04-27 22:41:42,484 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 390.2691ms
+INFO  2018-04-27 22:41:42,510 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 501.7283ms 200 application/json; charset=utf-8
+INFO  2018-04-27 22:41:42,534 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2018-04-27 22:41:42,541 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:41:42,566 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 14.1697ms 204 
+INFO  2018-04-27 22:41:42,675 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2018-04-27 22:41:42,690 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:41:42,715 [10   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-27 22:41:42,742 [10   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-27 22:41:42,774 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:41:42,813 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method LinFx.CMS.Sessions.SessionAppService.GetCurrentLoginInformations (LinFx.CMS.Core) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-27 22:41:42,922 [27   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-27 22:41:42,952 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action LinFx.CMS.Sessions.SessionAppService.GetCurrentLoginInformations (LinFx.CMS.Core) in 175.4986ms
+INFO  2018-04-27 22:41:42,978 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 305.0054ms 200 application/json; charset=utf-8
+INFO  2018-04-27 22:42:05,832 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/User/GetAll?maxResultCount=10&skipCount=0  
+INFO  2018-04-27 22:42:05,885 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/User/GetRoles  
+INFO  2018-04-27 22:42:05,909 [12   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:42:05,980 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 105.7112ms 204 
+INFO  2018-04-27 22:42:05,982 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:42:06,013 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetAll?maxResultCount=10&skipCount=0  
+INFO  2018-04-27 22:42:06,035 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 175.0088ms 204 
+INFO  2018-04-27 22:42:06,084 [12   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:42:06,154 [12   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-27 22:42:06,177 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetRoles  
+INFO  2018-04-27 22:42:06,218 [12   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-27 22:42:06,220 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:42:06,249 [5    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-27 22:42:06,280 [5    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-27 22:42:06,313 [12   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:42:06,388 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:42:06,391 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method LinFx.CMS.Users.UserAppService.GetAll (LinFx.CMS.Core) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - ModelState is Valid
+INFO  2018-04-27 22:42:06,562 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method LinFx.CMS.Users.UserAppService.GetRoles (LinFx.CMS.Core) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-27 22:42:06,740 [24   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-27 22:42:06,757 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action LinFx.CMS.Users.UserAppService.GetRoles (LinFx.CMS.Core) in 426.1817ms
+INFO  2018-04-27 22:42:06,767 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 670.3029ms 200 application/json; charset=utf-8
+INFO  2018-04-27 22:42:06,981 [27   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-27 22:42:07,007 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action LinFx.CMS.Users.UserAppService.GetAll (LinFx.CMS.Core) in 699.2863ms
+INFO  2018-04-27 22:42:07,014 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1021.9343ms 200 application/json; charset=utf-8
+INFO  2018-04-27 22:42:35,241 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/User/Update  
+INFO  2018-04-27 22:42:35,248 [11   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:42:35,258 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 33.8299ms 204 
+INFO  2018-04-27 22:42:35,287 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 PUT http://localhost:21021/api/services/app/User/Update application/json;charset=UTF-8 239
+INFO  2018-04-27 22:42:35,313 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:42:35,339 [5    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-27 22:42:35,363 [5    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-27 22:42:35,397 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:42:35,587 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method LinFx.CMS.Users.UserAppService.Update (LinFx.CMS.Core) with arguments (LinFx.CMS.Users.Dto.UserDto) - ModelState is Valid
+ERROR 2018-04-27 22:42:36,463 [27   ] Mvc.ExceptionHandling.AbpExceptionFilter - There is no user with id: 3510342203849310000
+Abp.AbpException: There is no user with id: 3510342203849310000
+   at Abp.Authorization.Users.AbpUserManager`2.<GetUserByIdAsync>d__46.MoveNext() in D:\Github\aspnetboilerplate\src\Abp.ZeroCore\Authorization\Users\AbpUserManager.cs:line 329
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at LinFx.CMS.Users.UserAppService.<Update>d__6.MoveNext() in D:\github\LinFx.CMS\src\LinFx.CMS.Core\Application\Users\UserAppService.cs:line 69
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:line 120
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at lambda_method(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+INFO  2018-04-27 22:42:36,482 [27   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-27 22:42:36,508 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action LinFx.CMS.Users.UserAppService.Update (LinFx.CMS.Core) in 1114.091ms
+INFO  2018-04-27 22:42:36,514 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1249.9818ms 500 application/json; charset=utf-8
+INFO  2018-04-27 22:42:47,358 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/User/Update  
+INFO  2018-04-27 22:42:47,383 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:42:47,433 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 33.141ms 204 
+INFO  2018-04-27 22:42:47,457 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 PUT http://localhost:21021/api/services/app/User/Update application/json;charset=UTF-8 246
+INFO  2018-04-27 22:42:47,467 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:42:47,472 [5    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-27 22:42:47,478 [5    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-27 22:42:47,486 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-27 22:42:47,623 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method LinFx.CMS.Users.UserAppService.Update (LinFx.CMS.Core) with arguments (LinFx.CMS.Users.Dto.UserDto) - ModelState is Valid
+ERROR 2018-04-27 22:42:47,960 [27   ] Mvc.ExceptionHandling.AbpExceptionFilter - There is no user with id: 3510342203849310000
+Abp.AbpException: There is no user with id: 3510342203849310000
+   at Abp.Authorization.Users.AbpUserManager`2.<GetUserByIdAsync>d__46.MoveNext() in D:\Github\aspnetboilerplate\src\Abp.ZeroCore\Authorization\Users\AbpUserManager.cs:line 329
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at LinFx.CMS.Users.UserAppService.<Update>d__6.MoveNext() in D:\github\LinFx.CMS\src\LinFx.CMS.Core\Application\Users\UserAppService.cs:line 69
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:line 120
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at lambda_method(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+INFO  2018-04-27 22:42:47,993 [27   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-27 22:42:48,019 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action LinFx.CMS.Users.UserAppService.Update (LinFx.CMS.Core) in 511.9497ms
+INFO  2018-04-27 22:42:48,026 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 613.8246ms 500 application/json; charset=utf-8
