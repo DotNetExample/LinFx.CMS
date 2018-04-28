@@ -14,7 +14,16 @@ namespace LinFx.CMS.Identity
         {
             services.AddLogging();
 
-            return services.AddAbpIdentity<Tenant, User, Role>()
+            return services.AddAbpIdentity<Tenant, User, Role>(option =>
+                {
+                    option.Password = new PasswordOptions
+                    {
+                        RequireDigit = false,
+                        RequireLowercase = false,
+                        RequireNonAlphanumeric = false,
+                        RequireUppercase = false,
+                    };
+                })
                 .AddAbpTenantManager<TenantManager>()
                 .AddAbpUserManager<UserManager>()
                 .AddAbpRoleManager<RoleManager>()
