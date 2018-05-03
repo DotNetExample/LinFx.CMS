@@ -2,14 +2,13 @@
 <localizationDictionary culture="zh-CN">
   <texts>
     <!-- 菜单 -->
-    <text name="Administration" value="系统管理" />
-    
     <text name="HomePage" value="控制台" />
     <text name="Tenants" value="租户管理" />
     <text name="Users" value="用户管理" />
     <text name="Roles" value="角色管理" />
     <text name="About" value="关于我们" />
-    
+
+    <text name="Administration" value="系统管理" />
     
     <text name="WellcomeMessage" value="欢迎使用 CMS!" />
     
@@ -22,6 +21,7 @@
     <text name="UserIsNotActiveAndCanNotLogin" value="用户 {0} 未激活，不能登录." />
     <text name="PleaseEnterLoginInformation" value="请输入登录信息" />
     <text name="UserNameOrEmail" value="用户名或邮箱地址" />
+    <text name="DefaultPasswordIs" value="默认密码" />
 
     <!-- 登录 -->
     <text name="LogIn" value="登录" />
@@ -34,6 +34,9 @@
     <text name="DisplayName" value="名称" />
 
     <!-- 操作 -->
+    <text name="LabelOptions" value="标签页" />
+    <text name="ClearAll" value="关闭全部标签页" />
+    <text name="ClearOthers" value="关闭其它标签页" />
     <text name="Actions" value="操作" />
     <text name="Refresh" value="刷新" />
     <text name="Create" value="创建" />
@@ -61,10 +64,14 @@
     
 
     <!-- 角色 -->
+    <text name="CreateNewRole" value="创建角色" />
+    <text name="EditRole" value="编辑角色" />
+
+    <text name="RoleName" value="角色标识" />
     <text name="RoleDescription" value="描述" />
     <text name="Permissions" value="权限" />
     <text name="EditRole" value="编辑角色" />
 
-    <text name="RoleName" value="角色标识" />
+    <text name="RoleName" value="角色名称" />
   </texts>
 </localizationDictionary>
