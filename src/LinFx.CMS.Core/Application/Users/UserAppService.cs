@@ -40,6 +40,11 @@ namespace LinFx.CMS.Users
             _passwordHasher = passwordHasher;
         }
 
+        public override Task<PagedResultDto<UserDto>> GetAll(PagedResultRequestDto input)
+        {
+            return base.GetAll(input);
+        }
+
         public override async Task<UserDto> Create(CreateUserDto input)
         {
             CheckCreatePermission();

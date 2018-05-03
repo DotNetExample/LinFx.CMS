@@ -81,6 +81,7 @@ namespace LinFx.CMS.EntityFrameworkCore.Seed.Host
                     IsActive = true
                 };
 
+                user.Id = User.CreateNewId();
                 user.Password = new PasswordHasher<User>(new OptionsWrapper<PasswordHasherOptions>(new PasswordHasherOptions())).HashPassword(user, "123qwe");
                 user.SetNormalizedNames();
 

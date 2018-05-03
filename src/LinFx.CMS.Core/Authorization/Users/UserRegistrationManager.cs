@@ -56,7 +56,7 @@ namespace LinFx.CMS.Authorization.Users
             };
 
             user.SetNormalizedNames();
-
+            user.Id = User.CreateNewId();
             user.Password = _passwordHasher.HashPassword(user, plainPassword);
 
             foreach (var defaultRole in await _roleManager.Roles.Where(r => r.IsDefault).ToListAsync())

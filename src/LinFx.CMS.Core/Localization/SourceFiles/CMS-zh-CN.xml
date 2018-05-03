@@ -2,6 +2,8 @@
 <localizationDictionary culture="zh-CN">
   <texts>
     <!-- 菜单 -->
+    <text name="Administration" value="系统管理" />
+    
     <text name="HomePage" value="控制台" />
     <text name="Tenants" value="租户管理" />
     <text name="Users" value="用户管理" />
@@ -41,7 +43,7 @@
     <text name="Cancel" value="取消" />
 
     <!-- 租户 -->
-    <text name="TenancyName" value="租户名称" />
+    <text name="TenancyName" value="租户标识" />
     
     <!-- 用户 -->
     <text name="UserDetails" value="用户信息" />
@@ -63,6 +65,6 @@
     <text name="Permissions" value="权限" />
     <text name="EditRole" value="编辑角色" />
 
-    <text name="RoleName" value="角色名称" />
+    <text name="RoleName" value="角色标识" />
   </texts>
 </localizationDictionary>

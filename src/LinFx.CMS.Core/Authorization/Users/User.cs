@@ -13,10 +13,11 @@ namespace LinFx.CMS.Authorization.Users
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public override long Id { get; set; }
 
-        public User()
+        public static long CreateNewId()
         {
-            Id = IDUtils.GenerateId();
+            return IDUtils.GenerateId();
         }
+
         public static string CreateRandomPassword()
         {
             return Guid.NewGuid().ToString("N").Truncate(16);
@@ -33,7 +34,9 @@ namespace LinFx.CMS.Authorization.Users
                 EmailAddress = emailAddress
             };
 
+            user.Id = User.CreateNewId();
             user.SetNormalizedNames();
+
 
             return user;
         }

@@ -12,8 +12,7 @@ util.title = function (title) {
     window.document.title = this.localize(title);
 };
 
-const ajaxUrl = env === 'development'
-    ? AppConsts.remoteServiceBaseUrl
+const ajaxUrl = env === 'development' ? AppConsts.remoteServiceBaseUrl
     : env === 'production'
         ? 'https://www.url.com'
         : 'https://debug.url.com';
