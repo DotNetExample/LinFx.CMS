@@ -35,8 +35,8 @@
 
     <!-- 操作 -->
     <text name="LabelOptions" value="标签页" />
-    <text name="ClearAll" value="关闭全部标签页" />
-    <text name="ClearOthers" value="关闭其它标签页" />
+    <text name="ClearAll" value="关闭全部" />
+    <text name="ClearOthers" value="关闭其它" />
     <text name="Actions" value="操作" />
     <text name="Refresh" value="刷新" />
     <text name="Create" value="创建" />
@@ -70,8 +70,5 @@
     <text name="RoleName" value="角色标识" />
     <text name="RoleDescription" value="描述" />
     <text name="Permissions" value="权限" />
-    <text name="EditRole" value="编辑角色" />
-
-    <text name="RoleName" value="角色名称" />
   </texts>
 </localizationDictionary>
