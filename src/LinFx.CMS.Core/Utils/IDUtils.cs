@@ -26,11 +26,11 @@ namespace LinFx.CMS.Utils
         private static long datacenterId = 0L;//数据ID
         private static long sequence = 0L;//计数从零开始
         private static long twepoch = 687888001020L; //唯一时间随机量
-        private static long machineIdBits = 5L; //机器码字节数
-        private static long datacenterIdBits = 5L;//数据字节数
+        private static long machineIdBits = 3L; //机器码字节数
+        private static long datacenterIdBits = 2L;//数据字节数
         public static long maxMachineId = -1L ^ -1L << (int)machineIdBits; //最大机器ID
         private static long maxDatacenterId = -1L ^ (-1L << (int)datacenterIdBits);//最大数据ID
-        private static long sequenceBits = 12L; //计数器字节数，12个字节用来保存计数码        
+        private static long sequenceBits = 8L; //计数器字节数，12个字节用来保存计数码        
         private static long machineIdShift = sequenceBits; //机器码数据左移位数，就是后面计数器占用的位数
         private static long datacenterIdShift = sequenceBits + machineIdBits;
         private static long timestampLeftShift = sequenceBits + machineIdBits + datacenterIdBits; //时间戳左移动位数就是机器码+计数器总字节数+数据字节数

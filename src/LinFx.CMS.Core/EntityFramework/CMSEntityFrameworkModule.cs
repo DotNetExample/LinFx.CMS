@@ -32,13 +32,9 @@ namespace LinFx.CMS.EntityFrameworkCore
                 Configuration.Modules.AbpEfCore().AddDbContext<CMSDbContext>(options =>
                 {
                     if (options.ExistingConnection != null)
-                    {
                         CMSDbContextConfigurer.Configure(options.DbContextOptions, options.ExistingConnection);
-                    }
                     else
-                    {
                         CMSDbContextConfigurer.Configure(options.DbContextOptions, options.ConnectionString);
-                    }
                 });
             }
         }

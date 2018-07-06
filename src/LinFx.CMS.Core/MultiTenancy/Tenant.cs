@@ -13,5 +13,10 @@ namespace LinFx.CMS.MultiTenancy
             : base(tenancyName, name)
         {
         }
+
+        /// <summary>
+        /// 租户类型
+        /// </summary>
+        public int TenancyType { get; set; }
     }
 }

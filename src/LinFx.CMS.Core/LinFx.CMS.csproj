@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <VersionPrefix>1.0.0.0</VersionPrefix>
     <TargetFramework>netcoreapp2.1</TargetFramework>
@@ -18,22 +18,19 @@
     <EmbeddedResource Include="Localization\SourceFiles\*.xml" Exclude="bin\**;obj\**;**\*.xproj;packages\**;@(EmbeddedResource)" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="abp.aspnetcore" Version="3.7.0" />
-    <PackageReference Include="Abp.AspNetCore.SignalR" Version="3.7.0" />
-    <PackageReference Include="Abp.AutoMapper" Version="3.7.0" />
-    <PackageReference Include="abp.dapper" Version="3.7.0" />
-    <PackageReference Include="Abp.ZeroCore.EntityFrameworkCore" Version="3.6.2" />
-    <PackageReference Include="Abp.ZeroCore.IdentityServer4" Version="3.6.2" />
-    <PackageReference Include="Abp.ZeroCore.IdentityServer4.EntityFrameworkCore" Version="3.6.2" />
-    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.8" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.0.3" />
-    <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="2.1.0" />
-    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.1.0" />
-    <PackageReference Include="Castle.Windsor.MsDependencyInjection" Version="3.3.0" />
-    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="2.0.1" />
+    <PackageReference Include="Abp.AspNetCore" Version="3.7.2" />
+    <PackageReference Include="Abp.AspNetCore.SignalR" Version="3.7.2" />
+    <PackageReference Include="Abp.AutoMapper" Version="3.7.2" />
+    <PackageReference Include="abp.dapper" Version="3.7.2" />
+    <PackageReference Include="Abp.ZeroCore.EntityFrameworkCore" Version="3.7.2" />
+    <PackageReference Include="Abp.ZeroCore.IdentityServer4" Version="3.7.2" />
+    <PackageReference Include="Abp.ZeroCore.IdentityServer4.EntityFrameworkCore" Version="3.7.2" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.1.1" />
+    <PackageReference Include="Castle.Windsor.MsDependencyInjection" Version="3.3.1" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="2.1.0-rc2-final" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="2.5.0" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\aspnetboilerplate\src\Abp.ZeroCore\Abp.ZeroCore.csproj" />
   </ItemGroup>
 </Project>

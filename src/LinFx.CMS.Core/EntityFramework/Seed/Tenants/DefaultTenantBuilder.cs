@@ -23,7 +23,6 @@ namespace LinFx.CMS.EntityFrameworkCore.Seed.Tenants
         private void CreateDefaultTenant()
         {
             // Default tenant
-
             var defaultTenant = _context.Tenants.IgnoreQueryFilters().FirstOrDefault(t => t.TenancyName == AbpTenantBase.DefaultTenantName);
             if (defaultTenant == null)
             {

@@ -43,9 +43,7 @@ namespace LinFx.CMS
 
         public override void PreInitialize()
         {
-            Configuration.DefaultNameOrConnectionString = _appConfiguration.GetConnectionString(
-                CMSConsts.ConnectionStringName
-            );
+            Configuration.DefaultNameOrConnectionString = _appConfiguration.GetConnectionString(CMSConsts.ConnectionStringName);
 
             // Use database for language management
             Configuration.Modules.Zero().LanguageManagement.EnableDbLocalization();

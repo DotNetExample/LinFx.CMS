@@ -17,6 +17,11 @@ namespace LinFx.CMS.MultiTenancy.Dto
         [StringLength(AbpTenantBase.MaxNameLength)]
         public string Name { get; set; }
 
+        /// <summary>
+        /// ×â»§ÀàÐÍ
+        /// </summary>
+        public int TenancyType { get; set; }
+
         [Required]
         [StringLength(AbpUserBase.MaxEmailAddressLength)]
         public string AdminEmailAddress { get; set; }

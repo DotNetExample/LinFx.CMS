@@ -13,6 +13,11 @@ namespace LinFx.CMS.MultiTenancy.Dto
         [RegularExpression(AbpTenantBase.TenancyNameRegex)]
         public string TenancyName { get; set; }
 
+        /// <summary>
+        /// ×â»§ÀàÐÍ
+        /// </summary>
+        public int TenancyType { get; set; }
+
         [Required]
         [StringLength(AbpTenantBase.MaxNameLength)]
         public string Name { get; set; }        
