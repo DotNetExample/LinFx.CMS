@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations.Schema;
 using Abp.Authorization.Users;
 using Abp.Extensions;
-using LinFx.CMS.Utils;
+using LinFx.Utils;
 
 namespace LinFx.CMS.Authorization.Users
 {
@@ -15,7 +15,7 @@ namespace LinFx.CMS.Authorization.Users
 
         public static long CreateNewId()
         {
-            return IDUtils.GenerateId();
+            return IDUtils.CreateNewId();
         }
 
         public static string CreateRandomPassword()
@@ -25,15 +25,6 @@ namespace LinFx.CMS.Authorization.Users
 
         public static User CreateTenantAdminUser(int tenantId, string emailAddress)
         {
-            //var user = new User
-            //{
-            //    TenantId = tenantId,
-            //    UserName = AdminUserName,
-            //    Name = AdminUserName,
-            //    Surname = AdminUserName,
-            //    EmailAddress = emailAddress
-            //};
-
             var user = new User
             {
                 TenantId = tenantId,

@@ -9,7 +9,7 @@
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
     <UserSecretsId>LinFx-CMS-56C2EF2F-ABD6-4EFC-AAF2-2E81C34E8FB1</UserSecretsId>
     <RootNamespace>LinFx.CMS</RootNamespace>
-    <Version>3.8.4</Version>
+    <Version>4.1.0</Version>
     <Authors>linfx</Authors>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <Copyright />
@@ -31,10 +31,9 @@
     <PackageReference Include="Abp.ZeroCore.EntityFrameworkCore" Version="4.0.2" />
     <PackageReference Include="Abp.ZeroCore.IdentityServer4" Version="4.0.2" />
     <PackageReference Include="Abp.ZeroCore.IdentityServer4.EntityFrameworkCore" Version="4.0.2" />
+    <PackageReference Include="LinFx" Version="3.2.17" />
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.1.6" />
-    <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="2.1.1" />
     <PackageReference Include="Castle.Windsor.MsDependencyInjection" Version="3.3.1" />
-    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="2.1.2" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="4.0.1" />
   </ItemGroup>
 </Project>
