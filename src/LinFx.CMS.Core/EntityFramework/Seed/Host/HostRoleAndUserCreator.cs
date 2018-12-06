@@ -9,6 +9,7 @@ using LinFx.CMS.Authorization.Roles;
 using LinFx.CMS.Authorization.Users;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Options;
+using LinFx.Utils;
 
 namespace LinFx.CMS.EntityFrameworkCore.Seed.Host
 {
@@ -81,8 +82,8 @@ namespace LinFx.CMS.EntityFrameworkCore.Seed.Host
                     IsActive = true
                 };
 
-                user.Id = User.CreateNewId();
-                user.Password = new PasswordHasher<User>(new OptionsWrapper<PasswordHasherOptions>(new PasswordHasherOptions())).HashPassword(user, "123qwe");
+                user.Id = IDUtils.CreateNewId();
+                user.Password = new PasswordHasher<User>(new OptionsWrapper<PasswordHasherOptions>(new PasswordHasherOptions())).HashPassword(user, "123456");
                 user.SetNormalizedNames();
 
                 adminUserForHost = _context.Users.Add(user).Entity;

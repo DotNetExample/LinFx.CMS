@@ -13,6 +13,7 @@ namespace LinFx.CMS.Authorization.Users
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public override long Id { get; set; }
 
+        [Obsolete("Use IDUtils.CreateNewId()")]
         public static long CreateNewId()
         {
             return IDUtils.CreateNewId();
@@ -34,7 +35,7 @@ namespace LinFx.CMS.Authorization.Users
                 EmailAddress = emailAddress
             };
 
-            user.Id = CreateNewId();
+            user.Id = IDUtils.CreateNewId();
             user.SetNormalizedNames();
             
             return user;

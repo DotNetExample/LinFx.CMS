@@ -11,6 +11,7 @@ using Abp.Runtime.Session;
 using Abp.UI;
 using LinFx.CMS.Authorization.Roles;
 using LinFx.CMS.MultiTenancy;
+using LinFx.Utils;
 
 namespace LinFx.CMS.Authorization.Users
 {
@@ -56,7 +57,7 @@ namespace LinFx.CMS.Authorization.Users
             };
 
             user.SetNormalizedNames();
-            user.Id = User.CreateNewId();
+            user.Id = IDUtils.CreateNewId();
             user.Password = _passwordHasher.HashPassword(user, plainPassword);
 
             foreach (var defaultRole in await _roleManager.Roles.Where(r => r.IsDefault).ToListAsync())

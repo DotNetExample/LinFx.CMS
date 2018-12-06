@@ -17,7 +17,8 @@ namespace LinFx.CMS.EntityFrameworkCore
         typeof(CMSCoreModule),
         typeof(AbpDapperModule),
         typeof(AbpZeroCoreEntityFrameworkCoreModule),
-        typeof(AbpZeroCoreIdentityServerEntityFrameworkCoreModule))]
+        typeof(AbpZeroCoreIdentityServerEntityFrameworkCoreModule)
+    )]
     public class CMSEntityFrameworkModule : AbpModule
     {
         /* Used it tests to skip dbcontext registration, in order to use in-memory database of EF Core */
